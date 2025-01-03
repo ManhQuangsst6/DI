@@ -24,10 +24,7 @@ namespace DI.UserControls
                 WorkingDirectory = "D:\\KenshinDX\\documentchecktool\\DocCheckOrderService\\bin\\Debug",
                 UseShellExecute = true
             };
-
             var process = Process.Start(startInfo);
-
-
             //if (process != null && !process.HasExited)
             //{
             //    process.Kill(); // Dừng ngay lập tức
